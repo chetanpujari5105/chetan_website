@@ -1,0 +1,2169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chetan Pujari | AI Educator - 400K+ Students - 21+ Platforms</title>
+<meta name="description" content="Chetan Pujari — AI Educator, Bestselling Instructor on 21+ Platforms, 400K+ Students across 190+ Countries. Making AI, Design & Tech simple for everyone.">
+<meta property="og:title" content="Chetan Pujari | AI Educator - 400K+ Students - 21+ Platforms">
+<meta property="og:description" content="AI Educator, Bestselling Instructor on 21+ Platforms, 400K+ Students across 190+ Countries.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chetanpujari.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chetan Pujari | AI Educator - 400K+ Students - 21+ Platforms">
+<meta name="twitter:description" content="Making AI, Design & Tech simple for everyone. 400K+ students across 190+ countries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--coral:#FF5A5A;--warm-orange:#FF8B5A;--soft-orange:#FFA95A;--golden:#FFD45A;--pink:#FE9EC7;--cream:#F9F6C4;--sky-blue:#89D4FF;--vibrant-blue:#44ACFF;--bg:#FFFFFF;--bg-alt:#FFF9F0;--bg-card:#FFFFFF;--text:#1A1A2E;--text-secondary:#555568;--text-muted:#888898;--shadow:rgba(0,0,0,0.06);--shadow-md:rgba(0,0,0,0.1);--nav-bg:rgba(255,255,255,0.92);--border:rgba(0,0,0,0.06)}
+[data-theme="dark"]{--bg:#1A1A2E;--bg-alt:#16162A;--bg-card:#222240;--text:#F5F5F5;--text-secondary:#C5C5D5;--text-muted:#8888A8;--shadow:rgba(0,0,0,0.3);--shadow-md:rgba(0,0,0,0.4);--nav-bg:rgba(26,26,46,0.95);--border:rgba(255,255,255,0.08)}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;overflow-x:hidden;transition:background .4s,color .4s}
+h1,h2,h3,h4,h5{font-family:'Space Grotesk',sans-serif;line-height:1.2}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* NAV */
+
+
+.nav-logo .logo-bolt {color:var(--coral); margin-left: 4px;}
+.nav-links{display:flex;align-items:center;gap:28px;list-style:none}
+.nav-links a{font-size:.92rem;font-weight:500;color:var(--text-secondary);transition:color .3s;position:relative}
+.nav-links a:hover{color:var(--coral)}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--coral);transition:width .3s}
+.nav-links a:hover::after{width:100%}
+.nav-right{display:flex;align-items:center;gap:16px}
+.theme-toggle{background:none;border:2px solid var(--border);border-radius:50%;width:40px;height:40px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.15rem;transition:all .3s;color:var(--text)}
+.theme-toggle:hover{border-color:var(--coral);transform:rotate(30deg)}
+.btn-cta{background:var(--coral);color:#fff;padding:10px 24px;border-radius:50px;font-weight:600;font-size:.9rem;border:none;cursor:pointer;transition:all .3s;display:inline-flex;align-items:center;gap:6px}
+.btn-cta:hover{background:#e84e4e;transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,90,90,.3)}
+.btn-outline{background:transparent;color:var(--vibrant-blue);padding:10px 24px;border-radius:50px;font-weight:600;font-size:.9rem;border:2px solid var(--vibrant-blue);cursor:pointer;transition:all .3s;display:inline-flex;align-items:center;gap:6px}
+.btn-outline:hover{background:var(--vibrant-blue);color:#fff;transform:translateY(-2px)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+.hamburger span{width:24px;height:2.5px;background:var(--text);border-radius:4px;transition:all .3s}
+.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.hamburger.active span:nth-child(2){opacity:0}
+.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.mobile-menu{display:none;position:fixed;top:70px;left:0;right:0;background:var(--bg);padding:24px;border-bottom:1px solid var(--border);flex-direction:column;gap:16px;z-index:999;transition:top 0.4s cubic-bezier(0.16, 1, 0.3, 1),left 0.4s ease,right 0.4s ease,border-radius 0.4s ease,background 0.4s ease}
+.mobile-menu.active{display:flex}
+.mobile-menu a{font-size:1.05rem;font-weight:500;color:var(--text-secondary);padding:8px 0;transition:color .3s}
+.mobile-menu a:hover{color:var(--coral)}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:70px;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--bg) 0%,var(--bg-alt) 100%)}
+.hero-content{display:grid;grid-template-columns:1.1fr 0.9fr;gap:60px;align-items:center;position:relative;z-index:2}
+.hero-text h1{font-size:3.2rem;font-weight:700;margin-bottom:16px}
+.hero-text h1 .highlight{background:linear-gradient(135deg,var(--coral),var(--warm-orange));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-subtitle{font-size:1rem;color:var(--text-muted);font-weight:500;margin-bottom:16px;letter-spacing:.02em}
+.hero-intro{font-size:1.05rem;color:var(--text-secondary);margin-bottom:32px;max-width:580px;line-height:1.75}
+.hero-buttons{display:flex;gap:16px;flex-wrap:wrap}
+.hero-avatar{display:flex;justify-content:center;align-items:center}
+
+/* 3D Rounded Square Profile Picture */
+.profile-ring {
+    position: relative;
+    width: 100%;
+    max-width: 460px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+    border-radius: 24px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 1;
+    transform-style: preserve-3d;
+    will-change: transform;
+    cursor: pointer;
+}
+
+/* The glowing gradient border */
+.profile-ring::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #FF5A5A, #FF8B5A, #FFA95A, #FFD45A, #89D4FF, #44ACFF);
+    background-size: 300% 300%;
+    z-index: -1;
+    opacity: 0.8;
+    transition: opacity 0.4s ease;
+    animation: profileGradientShift 4s ease infinite;
+}
+
+.profile-ring:hover::before {
+    opacity: 1;
+}
+
+.profile-ring:hover {
+    box-shadow: 0 24px 50px rgba(255, 90, 90, 0.25);
+}
+
+/* Image fit - no awkward cropping */
+.profile-ring img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 24px;
+    display: block;
+    background: var(--bg-alt);
+    transition: transform 0.5s ease;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.profile-ring:hover img {
+    transform: scale(1.03);
+}
+
+@keyframes profileGradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Tilt active state for profile ring (same as skill/service cards) */
+.profile-ring.tilt-active {
+    transition: box-shadow 0.4s ease !important;
+}
+.floating-icons{position:absolute;top:0;left:0;right:0;bottom:0;pointer-events:none;z-index:1}
+.floating-icon{backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);background:rgba(255,255,255,0.8);border:1px solid rgba(255,255,255,0.5);position:absolute;font-size:2rem;opacity:.15;animation:floatIcon 6s ease-in-out infinite}
+.floating-icon:nth-child(1){top:15%;left:8%;animation-delay:0s}
+.floating-icon:nth-child(2){top:25%;right:12%;animation-delay:1s}
+.floating-icon:nth-child(3){bottom:30%;left:15%;animation-delay:2s}
+.floating-icon:nth-child(4){bottom:20%;right:20%;animation-delay:3s}
+.floating-icon:nth-child(5){top:50%;left:50%;animation-delay:4s}
+@keyframes floatIcon{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-20px) rotate(10deg)}}
+
+/* MARQUEE */
+.marquee-section{padding:20px 0;overflow:hidden;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg)}
+.marquee-track{display:flex;gap:20px;animation:marqueeScroll 30s linear infinite;width:max-content}
+@keyframes marqueeScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.platform-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:50px;background:var(--bg-card);border:2px solid var(--border);color:var(--text);font-weight:600;font-size:.88rem;cursor:pointer;text-decoration:none;white-space:nowrap;transition:all .35s cubic-bezier(.25,.46,.45,.94)}
+.platform-btn:hover{background:var(--coral);color:#fff;border-color:var(--coral);transform:translateY(-3px) scale(1.05);box-shadow:0 8px 25px rgba(255,90,90,.35)}
+.platform-btn:active{transform:translateY(0) scale(.98)}
+.platform-btn svg{width:18px;height:18px;flex-shrink:0}
+.platform-btn:hover svg{fill:#fff}
+
+/* SECTIONS */
+section{padding:100px 0}
+.section-header{text-align:center;margin-bottom:60px}
+.section-header h2{font-size:2.4rem;margin-bottom:12px}
+.section-header p{color:var(--text-secondary);font-size:1.08rem;max-width:640px;margin:0 auto}
+.section-tag{display:inline-block;background:linear-gradient(135deg,rgba(255,90,90,.15),rgba(255,139,90,.15));color:var(--coral);font-weight:600;font-size:.82rem;padding:6px 16px;border-radius:50px;margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+.bg-alt{background:var(--bg-alt)}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.about-text p{color:var(--text-secondary);margin-bottom:20px;font-size:1.02rem}
+.timeline{position:relative;padding-left:40px;margin-top:48px}
+.timeline-line{position:absolute;left:7px;top:8px;bottom:8px;width:3px;background:linear-gradient(to bottom,#FFD45A,#FF5A5A);border-radius:2px}
+.timeline-entry{position:relative;margin-bottom:40px}
+.timeline-entry:last-child{margin-bottom:0}
+.timeline-dot{position:absolute;left:-40px;top:4px;width:16px;height:16px;border-radius:50%;background:#FFD45A;border:3px solid #fff;box-shadow:0 0 0 2px #FFD45A}
+[data-theme="dark"] .timeline-dot{border-color:#1A1A2E}
+.timeline-dot-active{background:#FF5A5A;border:3px solid #fff;box-shadow:0 0 0 2px #FF5A5A;animation:timelinePulse 2s infinite}
+[data-theme="dark"] .timeline-dot-active{border-color:#1A1A2E}
+@keyframes timelinePulse{0%{box-shadow:0 0 0 2px #FF5A5A,0 0 0 4px rgba(255,90,90,.3)}50%{box-shadow:0 0 0 2px #FF5A5A,0 0 0 10px rgba(255,90,90,0)}100%{box-shadow:0 0 0 2px #FF5A5A,0 0 0 4px rgba(255,90,90,.3)}}
+.timeline-content{display:flex;align-items:baseline;gap:16px}
+.timeline-year{font-weight:700;font-size:18px;color:#FF5A5A;display:inline-block;min-width:60px}
+.timeline-desc{font-size:15px;color:#555;max-width:500px;line-height:1.5}
+[data-theme="dark"] .timeline-desc{color:#ccc}
+
+/* PLATFORMS */
+.platforms-section{padding:100px 0}
+.platforms-subtitle{color:#888;font-size:16px;font-weight:400;margin-bottom:40px;text-align:center}
+.platforms-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;max-width:900px;margin:0 auto 40px auto}
+.platforms-grid .platform-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-width:180px;height:56px;padding:0 24px;border-radius:12px;background:#fff;border:2px solid #E0E0E0;font-size:15px;font-weight:600;color:#333;cursor:pointer;text-decoration:none;transition:all .3s ease}
+.platforms-grid .platform-btn:hover{background:#FF5A5A;color:#fff;border-color:#FF5A5A;transform:scale(1.05);box-shadow:0 8px 25px rgba(255,90,90,.3)}
+.platforms-grid .platform-btn svg{width:28px;height:28px;flex-shrink:0;transition:all .3s}
+.platforms-grid .platform-btn:hover svg{fill:currentColor}
+[data-theme="dark"] .platforms-grid .platform-btn{background:#2A2A4A;border-color:#444;color:#f5f5f5}
+[data-theme="dark"] .platforms-grid .platform-btn:hover{background:#FF5A5A;color:#fff;border-color:#FF5A5A}
+.platforms-separator{border:none;border-top:1px dashed #E0E0E0;margin:32px auto;width:50%}
+.packt-distribution{background:rgba(249,246,196,.3);border-radius:16px;padding:24px 32px;max-width:800px;margin:0 auto;text-align:center}
+[data-theme="dark"] .packt-distribution{background:rgba(249,246,196,.08)}
+.packt-distribution .dist-label{font-size:14px;color:#888;margin-bottom:16px;font-weight:500;font-style:italic}
+.packt-distribution .dist-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.dist-badge{display:inline-flex;align-items:center;height:36px;padding:0 16px;border-radius:50px;background:rgba(249,246,196,.6);border:1px solid #E8E5C0;color:#555;font-size:13px;font-weight:500;transition:all .25s ease;cursor:default}
+.dist-badge:hover{background:#89D4FF;color:#fff;border-color:#89D4FF}
+[data-theme="dark"] .dist-badge{background:rgba(255,255,255,.05);border-color:#444;color:#ccc}
+[data-theme="dark"] .dist-badge:hover{background:#89D4FF;color:#fff;border-color:#89D4FF}
+
+/* SKILLS */
+.skills-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.skill-card{background:var(--bg-card);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:32px 24px;text-align:center;transition:all .4s;border:1px solid var(--border);box-shadow:0 2px 12px var(--shadow)}
+.skill-card:hover{box-shadow:0 12px 40px var(--shadow-md);border-color:var(--coral)}
+.skill-icon{font-size:2.8rem;margin-bottom:16px}
+.skill-card h3{font-size:1.05rem;margin-bottom:8px}
+.skill-card p{font-size:.85rem;color:var(--text-muted);line-height:1.5}
+
+/* COURSES */
+.courses-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.course-card{background:var(--bg-card);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.1);border-radius:16px;overflow:hidden;transition:all .4s;border:1px solid var(--border);box-shadow:0 2px 12px var(--shadow);display:flex;flex-direction:column}
+.course-card:hover{transform:translateY(-6px);box-shadow:0 12px 40px var(--shadow-md)}
+.course-img-wrap{overflow:hidden;border-radius:16px 16px 0 0;position:relative}
+.course-img-wrap img{width:100%;aspect-ratio:480/270;object-fit:cover;transition:transform .5s ease;display:block}
+.course-card:hover .course-img-wrap img{transform:scale(1.05)}
+.course-badge{position:absolute;top:12px;right:12px;color:#1A1A2E;font-size:0.75rem;font-weight:700;padding:4px 12px;border-radius:4px;z-index:2;box-shadow:0 4px 10px rgba(0,0,0,0.15);text-transform:uppercase;letter-spacing:0.5px}
+.badge-bestseller{background:#ECEB98}
+.badge-popular{background:#D8B4FE}
+.badge-highest{background:#FFD45A}
+.course-info{padding:24px;flex:1;display:flex;flex-direction:column}
+.course-info h3{font-size:1rem;margin-bottom:8px;line-height:1.4}
+.course-meta{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.course-meta .platform-btn{padding:5px 14px;font-size:.75rem;border-radius:50px}
+.course-meta .platform-btn svg{width:14px;height:14px}
+.course-lectures{font-size:.78rem;color:var(--text-muted);background:var(--bg-alt);padding:5px 12px;border-radius:50px;display:inline-flex;align-items:center;gap:4px}
+.course-info .btn-cta{margin-top:auto;text-align:center;justify-content:center;font-size:.85rem;padding:10px 20px}
+.courses-footer{text-align:center;margin-top:48px}
+/* ============================================
+   UNIFIED BUTTON SHIMMER SYSTEM
+   ============================================ */
+.btn-explore-courses {
+    display: inline-block; background: #FF5A5A; color: #fff;
+    border-radius: 50px; padding: 14px 32px; font-size: 1rem; font-weight: 600;
+    text-decoration: none; position: relative; overflow: hidden;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-explore-courses:hover {
+    background: #FF8B5A; transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 90, 90, 0.3);
+}
+.btn-explore-courses::after {
+    content: ''; position: absolute; top: 0; left: -100%; width: 60%; height: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.25) 40%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.25) 60%, transparent 100%);
+    transform: skewX(-20deg); transition: none; pointer-events: none;
+}
+.btn-explore-courses:hover::after { animation: btnShimmer 0.8s ease forwards; }
+.btn-cta { position: relative; overflow: hidden; }
+.btn-cta::after {
+    content: ''; position: absolute; top: 0; left: -100%; width: 60%; height: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.25) 40%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.25) 60%, transparent 100%);
+    transform: skewX(-20deg); transition: none; pointer-events: none; z-index: 2;
+}
+.btn-cta:hover::after { animation: btnShimmer 0.8s ease forwards; }
+.btn-cta:hover {
+    background: #FF8B5A !important; transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(255, 90, 90, 0.4);
+}
+@keyframes btnShimmer { 0% { left: -100%; } 100% { left: 120%; } }
+
+/* IMPACT */
+.counters-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:60px}
+.counter-card{text-align:center;padding:32px 20px;background:var(--bg-card);border-radius:16px;border:1px solid var(--border);border-left:4px solid transparent;box-shadow:0 2px 12px var(--shadow);position:relative;overflow:hidden}
+.counter-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:4px 0 0 4px}
+.counter-card:nth-child(1)::before{background:linear-gradient(to bottom,var(--coral),var(--warm-orange))}
+.counter-card:nth-child(2)::before{background:linear-gradient(to bottom,var(--warm-orange),var(--soft-orange))}
+.counter-card:nth-child(3)::before{background:linear-gradient(to bottom,var(--soft-orange),var(--golden))}
+.counter-card:nth-child(4)::before{background:linear-gradient(to bottom,var(--golden),var(--sky-blue))}
+.counter-card:nth-child(5)::before{background:linear-gradient(to bottom,var(--sky-blue),var(--vibrant-blue))}
+.counter-card:nth-child(6)::before{background:linear-gradient(to bottom,var(--vibrant-blue),var(--pink))}
+.counter-emoji{font-size:2rem;margin-bottom:8px}
+.counter-number{font-family:'Space Grotesk',sans-serif;font-size:2.4rem;font-weight:700;background:linear-gradient(135deg,var(--coral),var(--warm-orange));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.counter-label{color:var(--text-muted);font-size:.88rem;margin-top:4px}
+
+/* TESTIMONIALS CAROUSEL */
+.testimonials-section{padding:100px 0;background:rgba(254,158,199,.08)}
+[data-theme="dark"] .testimonials-section{background:rgba(254,158,199,.04)}
+.testimonials-carousel{overflow:hidden;position:relative}
+.testimonials-carousel:hover .testimonials-track{animation-play-state:paused}
+.testimonials-track{display:flex;gap:24px;animation:scrollTestimonials 35s linear infinite;width:max-content}
+@keyframes scrollTestimonials{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.testimonial-card{min-width:380px;max-width:420px;background:var(--bg-card);border-radius:16px;padding:32px;box-shadow:0 4px 20px rgba(0,0,0,.08);flex-shrink:0;position:relative}
+.testimonial-stars{color:#FFD45A;font-size:1.2rem;margin-bottom:14px;letter-spacing:2px}
+.testimonial-text{color:#333;font-size:.95rem;font-style:italic;line-height:1.7;margin-bottom:18px}
+[data-theme="dark"] .testimonial-text{color:var(--text-secondary)}
+.testimonial-author{font-weight:700;font-size:.92rem;color:var(--text)}
+.testimonial-role{font-size:.82rem;color:var(--text-muted);margin-top:2px}
+
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.service-card{background:var(--bg-card);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:36px 28px;border:1px solid var(--border);border-left:4px solid transparent;box-shadow:0 2px 12px var(--shadow);transition:all .3s ease;cursor:pointer}
+.service-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px var(--shadow-md);border-left-color:var(--coral)}
+.service-icon{font-size:2.6rem;margin-bottom:16px;display:inline-block;transition:transform .3s}
+.service-card:hover .service-icon{animation:iconBounce .5s ease}
+@keyframes iconBounce{0%{transform:scale(1)}50%{transform:scale(1.35)}100%{transform:scale(1.3)}}
+.service-card h3{font-size:1.15rem;margin-bottom:10px}
+.service-card p{color:var(--text-secondary);font-size:.92rem;line-height:1.65}
+
+/* PHILOSOPHY */
+.philosophy-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+.philosophy-card{background:var(--bg-card);border-radius:16px;padding:36px;border-left:4px solid var(--coral);box-shadow:0 2px 12px var(--shadow)}
+.philosophy-card p{font-size:1.15rem;font-weight:500;color:var(--text);font-style:italic;line-height:1.6}
+
+/* BLOG */
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.blog-card{background:var(--bg-card);border-radius:16px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 12px var(--shadow);transition:all .4s;display:flex;flex-direction:column}
+.blog-card:hover{transform:translateY(-8px);box-shadow:0 16px 48px var(--shadow-md)}
+.blog-img-wrap{overflow:hidden;border-radius:16px 16px 0 0;position:relative}
+.blog-img-wrap img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s ease;display:block}
+.blog-card:hover .blog-img-wrap img{transform:scale(1.05)}
+.blog-img-placeholder{width:100%;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-size:3rem}
+.blog-info{padding:24px;flex:1;display:flex;flex-direction:column}
+.blog-date{display:inline-block;background:var(--cream);color:#555;font-size:.75rem;font-weight:600;padding:4px 12px;border-radius:50px;margin-bottom:10px;width:fit-content}
+[data-theme="dark"] .blog-date{background:#2a2a48;color:var(--cream)}
+.blog-info h3{font-size:1.1rem;margin-bottom:10px;line-height:1.4}
+.blog-info p{font-size:.88rem;color:#666;line-height:1.6;margin-bottom:16px}
+[data-theme="dark"] .blog-info p{color:var(--text-muted)}
+.blog-link{color:var(--vibrant-blue);font-weight:600;font-size:.9rem;margin-top:auto;transition:color .3s;display:inline-flex;align-items:center;gap:4px}
+.blog-link:hover{color:var(--coral)}
+.blog-footer{text-align:center;margin-top:48px}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.contact-form{display:flex;flex-direction:column;gap:20px}
+.form-group label{display:block;font-weight:500;margin-bottom:6px;font-size:.9rem}
+.form-group input,.form-group textarea{width:100%;padding:14px 18px;border-radius:12px;border:1.5px solid var(--border);background:var(--bg-card);color:var(--text);font-family:'Inter',sans-serif;font-size:.95rem;transition:border-color .3s;outline:none}
+.form-group input:focus,.form-group textarea:focus{border-color:var(--coral)}
+.form-group textarea{min-height:140px;resize:vertical}
+.contact-info h3{font-size:1.3rem;margin-bottom:20px}
+.contact-info p{color:var(--text-secondary);margin-bottom:24px}
+.contact-email{display:inline-flex;align-items:center;gap:8px;color:var(--coral);font-weight:600;font-size:1.05rem;margin-bottom:28px}
+.social-links{display:flex;gap:14px;flex-wrap:wrap}
+.social-link{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;border:1.5px solid var(--border);transition:all .3s;background:var(--bg-card)}
+.social-link:hover{transform:translateY(-4px);border-color:var(--vibrant-blue);background:var(--vibrant-blue)}
+.social-link:hover span{filter:brightness(10)}
+
+/* FOOTER */
+.footer{background:var(--bg-alt);border-top:1px solid var(--border);padding:48px 0 24px}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;margin-bottom:32px}
+.footer-brand p{color:var(--text-muted);font-size:.9rem;margin-top:8px}
+.footer-links h4,.footer-social h4{font-size:.95rem;margin-bottom:16px;color:var(--text)}
+.footer-links ul{list-style:none}
+.footer-links li{margin-bottom:8px}
+.footer-links a{color:var(--text-muted);font-size:.9rem;transition:color .3s}
+.footer-links a:hover{color:var(--coral)}
+.footer-social .social-links{gap:10px}
+.footer-bottom{text-align:center;padding-top:24px;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem}
+
+
+        /* ============================================
+   SERVICE CARD ANIMATION SYSTEM
+   Glassmorphism + colored glow + zig-zag entrance
+   ============================================ */
+.service-card {
+    background: rgba(255, 255, 255, 0.55) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.35) !important;
+    border-left: 4px solid transparent;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 8px 32px rgba(0,0,0,.06);
+    transition: all .35s ease;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+.service-card:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-left-color: #FF5A5A;
+}
+.service-card:nth-child(1):hover { box-shadow: 0 16px 48px rgba(255, 90, 90, 0.2); }
+.service-card:nth-child(2):hover { box-shadow: 0 16px 48px rgba(68, 172, 255, 0.2); }
+.service-card:nth-child(3):hover { box-shadow: 0 16px 48px rgba(255, 139, 90, 0.2); }
+.service-card:nth-child(4):hover { box-shadow: 0 16px 48px rgba(255, 212, 90, 0.2); }
+.service-card:nth-child(5):hover { box-shadow: 0 16px 48px rgba(254, 158, 199, 0.2); }
+.service-card:nth-child(6):hover { box-shadow: 0 16px 48px rgba(137, 212, 255, 0.2); }
+[data-theme="dark"] .service-card {
+    background: rgba(42, 42, 74, 0.45) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-left: 4px solid transparent;
+}
+[data-theme="dark"] .service-card:hover {
+    background: rgba(42, 42, 74, 0.7) !important;
+    border-left-color: #FF5A5A;
+}
+/* Zig-zag entrance */
+.services-grid .service-card {
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.services-grid .service-card:nth-child(odd) { transform: translateX(-40px); }
+.services-grid .service-card:nth-child(even) { transform: translateX(40px); }
+.services-grid.visible .service-card { opacity: 1; transform: translateX(0); }
+.services-grid.visible .service-card:nth-child(1) { transition-delay: 0ms; }
+.services-grid.visible .service-card:nth-child(2) { transition-delay: 150ms; }
+.services-grid.visible .service-card:nth-child(3) { transition-delay: 300ms; }
+.services-grid.visible .service-card:nth-child(4) { transition-delay: 450ms; }
+.services-grid.visible .service-card:nth-child(5) { transition-delay: 600ms; }
+.services-grid.visible .service-card:nth-child(6) { transition-delay: 750ms; }
+
+
+        
+
+        
+        /* ====================================================
+           SKILL CARD — 5-LAYER ANIMATION SYSTEM
+           ==================================================== */
+
+        /* Layer 1: Glassmorphism Base + Colored Glow (matching service cards) */
+.skill-card {
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.55) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.35) !important;
+    border-radius: 20px;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,.06);
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+                box-shadow 0.4s ease,
+                border-color 0.4s ease,
+                background 0.35s ease !important;
+    will-change: transform;
+}
+.skill-card:hover {
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-color: var(--coral) !important;
+}
+
+/* Colored glow shadows — each skill card gets a unique color on hover */
+.skill-card:nth-child(1):hover { box-shadow: 0 16px 48px rgba(255, 90, 90, 0.2); }
+.skill-card:nth-child(2):hover { box-shadow: 0 16px 48px rgba(255, 139, 90, 0.2); }
+.skill-card:nth-child(3):hover { box-shadow: 0 16px 48px rgba(255, 212, 90, 0.2); }
+.skill-card:nth-child(4):hover { box-shadow: 0 16px 48px rgba(68, 172, 255, 0.2); }
+.skill-card:nth-child(5):hover { box-shadow: 0 16px 48px rgba(137, 212, 255, 0.2); }
+.skill-card:nth-child(6):hover { box-shadow: 0 16px 48px rgba(254, 158, 199, 0.2); }
+.skill-card:nth-child(7):hover { box-shadow: 0 16px 48px rgba(255, 169, 90, 0.2); }
+.skill-card:nth-child(8):hover { box-shadow: 0 16px 48px rgba(68, 172, 255, 0.2); }
+
+        /* Layer 2: Rainbow Gradient Glow Border — 6-color animated gradient */
+        .skill-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(135deg, #FF5A5A, #FF8B5A, #FFA95A, #FFD45A, #89D4FF, #44ACFF);
+            background-size: 300% 300%;
+            border-radius: 22px;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            animation: skillGradientShift 3s ease infinite;
+        }
+        .skill-card:hover::before {
+            opacity: 1;
+        }
+        @keyframes skillGradientShift {
+            0%   { background-position: 0% 50%; }
+            50%  { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+
+/* Layer 3: Bounce/Pop Entrance — scale(0.8)→scale(1) with overshoot */
+.skills-grid .skill-card {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.6s cubic-bezier(0.34, 1.56, 0.64, 1),
+                transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+.skills-grid.visible .skill-card {
+    opacity: 1;
+    transform: scale(1);
+}
+/* Stagger each card 100ms apart */
+.skills-grid.visible .skill-card:nth-child(1) { transition-delay: 0.0s; }
+.skills-grid.visible .skill-card:nth-child(2) { transition-delay: 0.1s; }
+.skills-grid.visible .skill-card:nth-child(3) { transition-delay: 0.2s; }
+.skills-grid.visible .skill-card:nth-child(4) { transition-delay: 0.3s; }
+.skills-grid.visible .skill-card:nth-child(5) { transition-delay: 0.4s; }
+.skills-grid.visible .skill-card:nth-child(6) { transition-delay: 0.5s; }
+.skills-grid.visible .skill-card:nth-child(7) { transition-delay: 0.6s; }
+.skills-grid.visible .skill-card:nth-child(8) { transition-delay: 0.7s; }
+        }
+        /* Ensure card inner content sits above the gradient border */
+        .skill-card > * {
+            position: relative;
+            z-index: 1;
+        }
+        .skill-icon { font-size: 2.8rem; margin-bottom: 16px; }
+        .skill-card h3 { font-size: 1.05rem; margin-bottom: 8px; }
+        .skill-card p  { font-size: .85rem; color: var(--text-muted); line-height: 1.5; }
+
+        /* Layer 3: Bounce / Pop Entrance — scale(0.8) → scale(1) with overshoot */
+        .skills-grid .skill-card {
+            opacity: 0;
+            transform: scale(0.8);
+            transition: opacity 0.6s cubic-bezier(0.34, 1.56, 0.64, 1),
+                        transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+        }
+        .skills-grid.visible .skill-card {
+            opacity: 1;
+            transform: scale(1);
+        }
+        /* Stagger each card 100ms apart */
+        .skills-grid.visible .skill-card:nth-child(1) { transition-delay: 0.0s; }
+        .skills-grid.visible .skill-card:nth-child(2) { transition-delay: 0.1s; }
+        .skills-grid.visible .skill-card:nth-child(3) { transition-delay: 0.2s; }
+        .skills-grid.visible .skill-card:nth-child(4) { transition-delay: 0.3s; }
+        .skills-grid.visible .skill-card:nth-child(5) { transition-delay: 0.4s; }
+        .skills-grid.visible .skill-card:nth-child(6) { transition-delay: 0.5s; }
+        .skills-grid.visible .skill-card:nth-child(7) { transition-delay: 0.6s; }
+        .skills-grid.visible .skill-card:nth-child(8) { transition-delay: 0.7s; }
+
+        /* Layer 4: Kinetic Typography — already in .section-header h2 rules */
+
+        /* Layer 5: Magnetic 3D Tilt — handled via JS below (perspective + rotateX/Y) */
+        .skill-card.tilt-active,
+        .service-card.tilt-active {
+            transition: box-shadow 0.4s ease, border-color 0.4s ease !important;
+        }
+
+        /* Dark mode adjustments for gradient glow */
+        [data-theme="dark"] .skill-card {
+    background: rgba(42, 42, 74, 0.45) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+[data-theme="dark"] .skill-card:hover {
+    background: rgba(42, 42, 74, 0.7) !important;
+}
+[data-theme="dark"] .skill-card::before {
+            opacity: 0;
+        }
+        [data-theme="dark"] .skill-card:hover::before {
+            opacity: 0.8;
+        }
+
+        /* ANIMATIONS */
+.fade-in{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+.skills-grid{grid-template-columns:repeat(2,1fr)}
+.counters-grid{grid-template-columns:repeat(2,1fr)}
+.footer-grid{grid-template-columns:1fr}
+.testimonial-card{min-width:320px}
+}
+@media(max-width:992px){
+.hero-content{grid-template-columns:1fr;text-align:center;gap:40px}
+.hero-content .hero-avatar{order:-1}
+.profile-ring{max-width:380px}
+}
+@media(max-width:768px){
+.nav-links{display:none}
+.hamburger{display:flex}
+.hero-content{grid-template-columns:1fr;text-align:center;gap:40px}
+.hero-content .hero-avatar{order:-1}
+.hero-text h1{font-size:2.2rem}
+.hero-intro{margin:0 auto 32px}
+.hero-buttons{justify-content:center}
+.about-grid{grid-template-columns:1fr}
+.courses-grid{grid-template-columns:1fr}
+.services-grid{grid-template-columns:1fr}
+.philosophy-grid{grid-template-columns:1fr}
+.blog-grid{grid-template-columns:1fr}
+.contact-grid{grid-template-columns:1fr}
+.section-header h2{font-size:1.8rem}
+.profile-ring{max-width:380px}
+.testimonial-card{min-width:280px;max-width:320px;padding:24px}
+
+.platforms-grid .platform-btn{min-width:160px;height:52px;font-size:14px}
+
+.timeline-content{flex-direction:column;gap:4px}
+.timeline{padding-left:32px}
+.timeline-dot{left:-32px}
+.timeline-entry{margin-bottom:32px}
+.timeline-desc{font-size:14px}
+}
+@media(max-width:480px){
+.profile-ring{max-width:300px}
+.hero-text h1{font-size:1.8rem}
+.skills-grid{grid-template-columns:1fr}
+.counters-grid{grid-template-columns:1fr}
+
+.platforms-grid .platform-btn{min-width:140px;height:48px;font-size:13px;padding:0 16px}
+}
+
+
+/* Card Glow Effect */
+.course-card {
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+.course-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08), 0 0 20px rgba(255, 90, 90, 0.15);
+    border-color: rgba(255, 90, 90, 0.3);
+}
+
+
+/* Typing Effect */
+.typing-container {
+    display: inline-block;
+    font-size: 2rem; /* Matches existing h2 */
+    color: var(--coral);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#typing-text { color: var(--text); }
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: var(--coral);
+    color: transparent;
+    animation: blink 1s step-end infinite;
+    margin-left: 2px;
+}
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+
+/* Staggered Cascade effect */
+.courses-grid .course-card { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+.courses-grid.visible .course-card { opacity: 1; transform: translateY(0); }
+.courses-grid.visible .course-card:nth-child(1) { transition-delay: 0.1s; }
+.courses-grid.visible .course-card:nth-child(2) { transition-delay: 0.2s; }
+.courses-grid.visible .course-card:nth-child(3) { transition-delay: 0.3s; }
+.courses-grid.visible .course-card:nth-child(4) { transition-delay: 0.4s; }
+
+
+@media (pointer: fine) {
+    
+    
+
+    
+
+    
+
+    /* Hover state for links */
+    .cursor-hover 
+    .cursor-hover 
+}
+
+
+/* Glassmorphism Cards */
+.course-card, .service-card, .counter-card {
+    background: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+[data-theme="dark"] .course-card, [data-theme="dark"] .skill-card, [data-theme="dark"] .service-card, [data-theme="dark"] .counter-card {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+
+/* Magnetic Hover & Shimmer Effects */
+
+
+.course-card {
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.4s ease !important;
+}
+.course-card:hover {
+    transform: translateY(-10px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08), 0 0 25px rgba(255, 90, 90, 0.2) !important;
+    border-color: rgba(255, 90, 90, 0.4) !important;
+}
+
+
+.visible > :nth-child(1) { transition-delay: 0.1s; }
+.visible > :nth-child(2) { transition-delay: 0.2s; }
+.visible > :nth-child(3) { transition-delay: 0.3s; }
+.visible > :nth-child(4) { transition-delay: 0.4s; }
+.visible > :nth-child(5) { transition-delay: 0.5s; }
+.visible > :nth-child(6) { transition-delay: 0.6s; }
+.visible > :nth-child(7) { transition-delay: 0.7s; }
+.visible > :nth-child(8) { transition-delay: 0.8s; }
+
+/* Particles Background */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Behind everything */
+    pointer-events: auto; /* Needs to catch mouse for interactivity */
+}
+/* Ensure the hero content stays above particles */
+.hero .container, .hero .floating-icons {
+    position: relative;
+    z-index: 10;
+    pointer-events: none; /* Let mouse pass through to particles */
+}
+.hero .container *, .hero .floating-icons * {
+    pointer-events: auto; /* Re-enable for buttons/text */
+}
+
+
+/* Parallax & Blobs */
+.parallax-bg {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    will-change: transform;
+}
+.bg-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.15;
+    z-index: -1;
+}
+.blob-1 {
+    top: 10%; left: -10%;
+    width: 600px; height: 600px;
+    background: var(--coral);
+}
+.blob-2 {
+    top: 40%; right: -5%;
+    width: 500px; height: 500px;
+    background: var(--vibrant-blue);
+}
+.blob-3 {
+    top: 80%; left: 20%;
+    width: 700px; height: 700px;
+    background: var(--golden);
+}
+
+[data-theme="dark"] .bg-blob {
+    opacity: 0.08;
+}
+
+/* Foreground Parallax targets */
+.parallax-fg {
+    will-change: transform;
+    transition: transform 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth out scroll ticks */
+}
+
+
+/* --- PRELOADER WAVE ANIMATION --- */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The solid background that animates into an expanding hole */
+#preloader::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    box-sizing: content-box;
+    border: 150vmax solid var(--bg);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: width 0.9s cubic-bezier(0.77, 0, 0.175, 1),
+                height 0.9s cubic-bezier(0.77, 0, 0.175, 1),
+                border-width 0.9s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* Wave-out: expand the hole, shrink the border */
+#preloader.wave-out::before {
+    width: 300vmax;
+    height: 300vmax;
+    border-width: 0;
+}
+
+/* Fade the logo/bar as the wave starts */
+#preloader .preloader-content {
+    transition: opacity 0.3s ease, transform 0.4s ease;
+}
+
+#preloader.wave-out .preloader-content {
+    opacity: 0;
+    transform: scale(0.8);
+}
+.preloader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.preloader-logo-wrap {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.preloader-ring {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    transform: rotate(-90deg);
+}
+.ring-track {
+    fill: none;
+    stroke: rgba(255, 90, 90, 0.1);
+    stroke-width: 2;
+}
+.ring-progress {
+    fill: none;
+    stroke: var(--coral);
+    stroke-width: 3;
+    stroke-dasharray: 301;
+    stroke-dashoffset: 301;
+    stroke-linecap: round;
+    animation: drawRing 2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+.preloader-text {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -1px;
+    opacity: 0;
+    animation: fadeInScale 0.5s ease 0.5s forwards;
+}
+.preloader-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: var(--text);
+    opacity: 0;
+    transform: translateY(10px);
+    animation: slideUpFade 0.5s ease 1s forwards;
+    margin-bottom: 20px;
+}
+.preloader-bar {
+    width: 150px;
+    height: 2px;
+    background: rgba(255, 90, 90, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 0.3s ease 1.2s forwards;
+}
+.preloader-fill {
+    width: 0%;
+    height: 100%;
+    background: var(--coral);
+    animation: fillBar 1.5s cubic-bezier(0.4, 0, 0.2, 1) 1.2s forwards;
+}
+
+/* Preloader Animations */
+@keyframes drawRing {
+    0% { stroke-dashoffset: 301; }
+    100% { stroke-dashoffset: 0; }
+}
+@keyframes fadeInScale {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+}
+@keyframes slideUpFade {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fillBar {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
+
+/* Hide scrollbar while loading */
+body.loading {
+    overflow: hidden;
+}
+
+
+/* Scroll Progress Bar */
+#scroll-progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px; /* Thin line */
+    background: transparent;
+    z-index: 999999; /* Below the custom cursor (999999) but above the nav (1000) */
+    pointer-events: none;
+}
+#scroll-progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(to right, var(--coral) 0%, var(--golden) 50%, var(--vibrant-blue) 100%);
+    box-shadow: 0 0 8px rgba(255, 90, 90, 0.4);
+    will-change: width;
+    transition: width 0.1s ease-out; /* Smooth but immediate */
+}
+
+
+/* Kinetic Typography for Section Headings */
+.section-header h2 {
+    letter-spacing: 24px;
+    filter: blur(12px);
+    opacity: 0;
+    transform: translateY(30px) scale(1.1) translateZ(0);
+    transition: letter-spacing 1.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+                filter 1.2s ease-out,
+                opacity 1s ease-out,
+                transform 1.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: letter-spacing, filter, transform, opacity;
+}
+
+.section-header.fade-in.visible h2 {
+    letter-spacing: -0.5px;
+    filter: blur(0px);
+    opacity: 1;
+    transform: translateY(0) scale(1) translateZ(0);
+    transition-delay: 0.15s;
+}
+
+
+/* --- FLOATING HIRE BADGE (EXPAND ON HOVER) --- */
+.hire-badge {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+
+    /* Exact mathematical dimensions for a perfect circle */
+    height: 48px;
+    max-width: 48px;
+    border-radius: 50px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 999;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    color: var(--text);
+    text-decoration: none;
+    white-space: nowrap;
+
+    /* Ultra-smooth, elegant transition curve */
+    transition: max-width 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.4s ease,
+                box-shadow 0.4s ease,
+                background 0.4s ease;
+}
+
+[data-theme="dark"] .hire-badge {
+    background: rgba(26, 26, 46, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+/* The pulsing green dot */
+.pulse-dot {
+    width: 12px;
+    height: 12px;
+    /* Centered perfectly inside the 48px circle (18px + 12px + 18px = 48px) */
+    margin: 0 18px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.pulse-dot::after {
+    content: '';
+    position: absolute;
+    top: -6px; left: -6px; right: -6px; bottom: -6px;
+    background-color: rgba(46, 204, 113, 0.5);
+    border-radius: 50%;
+    /* Slower, more calming pulse */
+    animation: pulse-ring 2.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+@keyframes pulse-ring {
+    0% { transform: scale(0.6); opacity: 1; }
+    100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* The text styling */
+.hire-text {
+    font-weight: 500;
+    font-size: 0.9rem;
+    opacity: 0;
+    margin-right: 24px;
+    transform: translateX(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* --- HOVER STATE: EXPAND --- */
+.hire-badge:hover {
+    max-width: 250px;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    background: var(--bg-card);
+}
+
+.hire-badge:hover .hire-text {
+    opacity: 1;
+    transform: translateX(0);
+    /* Slight delay so the pill opens before text fades in */
+    transition: opacity 0.5s ease 0.15s, transform 0.5s ease 0.15s;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .hire-badge {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+
+/* Smart Navbar — Liquid Glass Effect */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Liquid Glass State (When scrolled) */
+.navbar.scrolled {
+    top: 16px;
+    width: 80%;
+    left: 10%;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.08),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Dark Mode Liquid Glass */
+[data-theme="dark"] .navbar.scrolled {
+    background: rgba(26, 26, 46, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    transition: height 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), padding 0.4s ease;
+}
+.navbar.scrolled .nav-inner {
+    height: 60px;
+    padding: 0 32px;
+}
+.nav-logo {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--text);
+    transition: font-size 0.4s ease;
+}
+.navbar.scrolled .nav-logo {
+    font-size: 1.3rem;
+}
+.logo-hide {
+    display: inline-block;
+    max-width: 100px;
+    opacity: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.3s ease;
+}
+.navbar.scrolled .logo-hide {
+    max-width: 0;
+    opacity: 0;
+}
+
+/* Mobile Responsiveness for Liquid Glass */
+@media (max-width: 768px) {
+    .navbar.scrolled {
+        top: 12px;
+        width: 92%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    .navbar.scrolled .nav-inner {
+        padding: 0 20px;
+    }
+}
+
+/* Mobile menu adjustments for scrolled pill navbar */
+.navbar.scrolled ~ .mobile-menu.active,
+.mobile-menu.active {
+    border-radius: 0 0 16px 16px;
+}
+
+/* Course card glow border */
+.course-card { position: relative; overflow: visible; z-index: 1; }
+.course-card::before {
+    content: ''; position: absolute; top: -2px; left: -2px; right: -2px; bottom: -2px;
+    border-radius: 18px;
+    background: linear-gradient(45deg, #FF5A5A, #FFA95A, #44ACFF, #89D4FF, #FF5A5A);
+    background-size: 400% 400%; z-index: -1; opacity: 0; transition: opacity 0.4s ease;
+}
+.course-card:hover::before { opacity: 1; animation: gradientShift 4s ease infinite; }
+@keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+
+/* Tilt support */
+.skill-card, .service-card { transform-style: preserve-3d; will-change: transform; }
+
+/* Section gradient blobs */
+#home { position: relative; overflow: hidden; }
+#home::before { content: ''; position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(255,90,90,0.15), transparent 70%); border-radius: 50%; z-index: 0; pointer-events: none; }
+#home::after { content: ''; position: absolute; bottom: -80px; left: -80px; width: 350px; height: 350px; background: radial-gradient(circle, rgba(68,172,255,0.12), transparent 70%); border-radius: 50%; z-index: 0; pointer-events: none; }
+#courses { position: relative; overflow: hidden; }
+#courses::before { content: ''; position: absolute; top: -60px; left: -80px; width: 350px; height: 350px; background: radial-gradient(circle, rgba(254,158,199,0.08), transparent 70%); border-radius: 50%; z-index: 0; pointer-events: none; }
+#services { position: relative; overflow: hidden; }
+#services::before { content: ''; position: absolute; top: -80px; right: -60px; width: 380px; height: 380px; background: radial-gradient(circle, rgba(255,169,90,0.1), transparent 70%); border-radius: 50%; z-index: 0; pointer-events: none; }
+.container { position: relative; z-index: 1; }
+
+/* Secondary CTA glow */
+.btn-outline { position: relative; transition: all 0.3s ease; }
+.btn-outline:hover {
+    color: #fff; background: #44ACFF; border-color: #44ACFF;
+    box-shadow: 0 0 10px rgba(68,172,255,0.3), 0 0 20px rgba(68,172,255,0.2), 0 0 40px rgba(68,172,255,0.1);
+    transform: translateY(-2px);
+}
+
+
+
+/* SVG icons inside social links */
+.social-link svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/* View Transitions API - Theme Wave Effect */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-new(root) {
+  z-index: 1;
+}
+::view-transition-old(root) {
+  z-index: 0;
+}
+/* Disable CSS transitions on background colors during the wave so colors don't smear */
+.theme-transitioning,
+.theme-transitioning *,
+.theme-transitioning *::before,
+.theme-transitioning *::after {
+  transition-duration: 0s !important;
+}
+</style>
+
+<script>
+// Prevent flash of wrong theme on load
+(function() {
+    const saved = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', saved);
+})();
+
+
+
+</script>
+</head>
+
+<body class="loading">
+
+
+<!-- Scroll Progress Bar -->
+<div id="scroll-progress-container">
+    <div id="scroll-progress-bar"></div>
+</div>
+
+<!-- Branded Preloader -->
+<div id="preloader">
+    <div class="preloader-content">
+        <div class="preloader-logo-wrap">
+            <svg class="preloader-ring" viewBox="0 0 100 100">
+                <circle class="ring-track" cx="50" cy="50" r="48" />
+                <circle class="ring-progress" cx="50" cy="50" r="48" />
+            </svg>
+            <div class="preloader-text">CP</div>
+        </div>
+        <div class="preloader-name">CHETAN PUJARI</div>
+        <div class="preloader-bar">
+            <div class="preloader-fill"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Parallax Background Blobs -->
+<div class="parallax-bg" data-speed="0.1">
+    <div class="bg-blob blob-1"></div>
+</div>
+<div class="parallax-bg" data-speed="0.2">
+    <div class="bg-blob blob-2"></div>
+</div>
+<div class="parallax-bg" data-speed="0.15">
+    <div class="bg-blob blob-3"></div>
+</div>
+
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+<div class="nav-inner">
+<a href="#home" class="nav-logo">C<span class="logo-hide">hetan&nbsp;</span>P<span class="logo-hide">ujari</span><span class="logo-bolt">&#9889;</span></a>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#platforms">Platforms</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#impact">Impact</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#blog">Blog</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<div class="nav-right">
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">&#127769;</button>
+<a href="#contact" class="btn-cta" style="display:none" id="navCTA">Let's Talk</a>
+<button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div>
+</div>
+<div class="mobile-menu" id="mobileMenu">
+<a href="#home">Home</a><a href="#about">About</a><a href="#platforms">Platforms</a>
+<a href="#skills">Skills</a><a href="#courses">Courses</a><a href="#impact">Impact</a>
+<a href="#services">Services</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+<a href="#contact" class="btn-cta" style="text-align:center;">Let's Talk</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+<div id="particles-js"></div>
+
+<div class="container">
+<div class="hero-content">
+<div class="hero-text">
+<h1>I Make <span class="highlight">Tech, AI &amp; Design</span> Simple &mdash; So You Can Do More.</h1>
+<div class="typing-container">
+    I <span id="typing-text">teach AI to 400K+ students 🤖</span><span class="cursor">|</span>
+</div>
+<p class="hero-subtitle" style="margin-top: 10px;">Bestselling Instructor on 21+ Platforms &middot; 400,000+ Students Worldwide &middot; Workshop Speaker at Top NITs</p>
+<p class="hero-intro">What if learning AI, design, and automation felt as simple as scrolling through your favorite feed? That's exactly what I do. I'm Chetan &mdash; and I've helped 400,000+ students across 190+ countries turn confusing tech into real-world skills they actually use. No jargon. No fluff. Just clear, practical knowledge that gets you results &mdash; whether you're picking up your first skill or leveling up your career.</p>
+<div class="hero-buttons">
+<a href="#courses" class="btn-cta">&#127891; Explore My Courses</a>
+<a href="#services" class="btn-outline">&#128188; Work With Me</a>
+</div>
+</div>
+<div class="hero-avatar">
+<div class="profile-ring">
+<img src="assets/images/profile-pic.jpg" alt="Chetan Pujari - AI Educator" loading="lazy" onerror="this.style.display='none';this.parentElement.innerHTML='<div style=&quot;width:100%;aspect-ratio:1/1;border-radius:24px;background:var(--bg-alt);display:flex;align-items:center;justify-content:center;font-size:5rem;&quot;>&#128104;&#8205;&#128187;</div>';">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+<div class="marquee-track" aria-hidden="true">
+<a href="https://www.udemy.com/user/chetan-pujari-3/" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#A435F0" width="16" height="16"><path d="M12 0L5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.104 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-.996 3.054-2.974 3.054-1.979 0-2.921-1.018-2.921-3.054v-7.85z"/></svg> Udemy</a>
+<a href="https://www.skillshare.com/en/profile/Chetan-Pujari/2609232" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#00FF84" width="16" height="16"><path d="M9.208 2.032l3.576 5.796 3.552-5.796h4.152L14.46 11.46l6.06 10.512h-4.2l-3.6-6.252-3.624 6.252h-4.14l6.048-10.512L5.028 2.032z"/></svg> Skillshare</a>
+<a href="https://market.tutorialspoint.com/profile/chetan-pujari" target="_blank" rel="noopener noreferrer" class="platform-btn">&#128218; TutorialsPoint</a>
+<a href="https://do.starweaver.com/channels/chetan-pujari/about-me" target="_blank" rel="noopener noreferrer" class="platform-btn">&#11088; Starweaver</a>
+<a href="#" class="platform-btn">&#128230; Packt</a>
+<a href="https://www.coursera.org" target="_blank" rel="noopener noreferrer" class="platform-btn">&#127891; Coursera</a>
+<a href="https://www.oreilly.com" target="_blank" rel="noopener noreferrer" class="platform-btn">&#128214; O'Reilly</a>
+<a href="https://www.youtube.com/@chetanpujari" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#FF0000" width="16" height="16"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> YouTube</a>
+<a href="https://substack.com/@chetanpujari" target="_blank" rel="noopener noreferrer" class="platform-btn">&#128240; Substack</a>
+<a href="https://www.linkedin.com/in/chetan-pujari-ai" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#0A66C2" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> LinkedIn</a>
+<!-- Duplicate set for seamless marquee -->
+<a href="https://www.udemy.com/user/chetan-pujari-3/" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#A435F0" width="16" height="16"><path d="M12 0L5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.104 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-.996 3.054-2.974 3.054-1.979 0-2.921-1.018-2.921-3.054v-7.85z"/></svg> Udemy</a>
+<a href="https://www.skillshare.com/en/profile/Chetan-Pujari/2609232" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#00FF84" width="16" height="16"><path d="M9.208 2.032l3.576 5.796 3.552-5.796h4.152L14.46 11.46l6.06 10.512h-4.2l-3.6-6.252-3.624 6.252h-4.14l6.048-10.512L5.028 2.032z"/></svg> Skillshare</a>
+<a href="https://market.tutorialspoint.com/profile/chetan-pujari" target="_blank" rel="noopener noreferrer" class="platform-btn">&#128218; TutorialsPoint</a>
+<a href="https://do.starweaver.com/channels/chetan-pujari/about-me" target="_blank" rel="noopener noreferrer" class="platform-btn">&#11088; Starweaver</a>
+<a href="#" class="platform-btn">&#128230; Packt</a>
+<a href="https://www.coursera.org" target="_blank" rel="noopener noreferrer" class="platform-btn">&#127891; Coursera</a>
+<a href="https://www.oreilly.com" target="_blank" rel="noopener noreferrer" class="platform-btn">&#128214; O'Reilly</a>
+<a href="https://www.youtube.com/@chetanpujari" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#FF0000" width="16" height="16"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> YouTube</a>
+<a href="https://substack.com/@chetanpujari" target="_blank" rel="noopener noreferrer" class="platform-btn">&#128240; Substack</a>
+<a href="https://www.linkedin.com/in/chetan-pujari-ai" target="_blank" rel="noopener noreferrer" class="platform-btn"><svg viewBox="0 0 24 24" fill="#0A66C2" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> LinkedIn</a>
+</div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="bg-alt">
+<div class="container">
+<div class="section-header fade-in">
+<span class="section-tag">About</span>
+<h2>From Curiosity to 400K Students &mdash; Here's My Story</h2>
+</div>
+<div class="about-grid">
+<div class="about-text fade-in">
+<p>I never planned to become an educator. I was just a curious kid from Pune who loved figuring out how things work &mdash; apps, websites, designs, AI tools. I graduated from Sinhgad College of Engineering (SIT Lonavala), but the real education happened outside the classroom.</p>
+<p>In 2020, I uploaded my first course on Udemy. I had zero audience, zero marketing budget, and honestly &mdash; zero expectations. But something clicked. Students started showing up. Then more. Then thousands. Today, over 400,000 students from 190+ countries have taken my courses across platforms like Udemy, Skillshare, TutorialsPoint, Starweaver, Packt, Coursera, O'Reilly, and more.</p>
+<p>But teaching online wasn't enough. I wanted to see the spark in person. So I started conducting AI workshops and guest lectures at some of India's top engineering colleges &mdash; including NIT Surat (SVNIT), where I led a hands-on Prompt Engineering workshop during their MINDBEND tech fest that had students reverse-engineering AI outputs like pros.</p>
+<p>My teaching philosophy? I call it the <strong>Roots-to-Leaves method.</strong> Master the foundations first, and everything advanced grows naturally. I use educational psychology to structure every lesson, so even complex topics like AI agents, prompt engineering, and UI/UX design feel like a conversation &mdash; not a lecture.</p>
+<p>I believe world-class skills shouldn't cost a fortune. That's why I make &#8377;80,000-worth of knowledge available for the price of a chai. &#9749;</p>
+</div>
+<div class="timeline fade-in">
+<div class="timeline-line"></div>
+<div class="timeline-entry">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<span class="timeline-year">2020</span>
+<span class="timeline-desc">Launched first course on Udemy; began full-time teaching journey</span>
+</div>
+</div>
+<div class="timeline-entry">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<span class="timeline-year">2021</span>
+<span class="timeline-desc">Expanded to Skillshare; started building a multi-platform presence</span>
+</div>
+</div>
+<div class="timeline-entry">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<span class="timeline-year">2023</span>
+<span class="timeline-desc">Joined TutorialsPoint &amp; Starweaver as Instructor</span>
+</div>
+</div>
+<div class="timeline-entry">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<span class="timeline-year">2024</span>
+<span class="timeline-desc">Crossed 350K+ students; published on Packt, distributed to Coursera &amp; O'Reilly</span>
+</div>
+</div>
+<div class="timeline-entry">
+<div class="timeline-dot"></div>
+<div class="timeline-content">
+<span class="timeline-year">2025</span>
+<span class="timeline-desc">Conducted AI workshops at NIT Surat (SVNIT MINDBEND); 539K+ LinkedIn impressions</span>
+</div>
+</div>
+<div class="timeline-entry">
+<div class="timeline-dot timeline-dot-active"></div>
+<div class="timeline-content">
+<span class="timeline-year">2026</span>
+<span class="timeline-desc">Hit 400K+ students; building AI agents &amp; automation systems; expanding to 21+ platforms</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PLATFORMS -->
+<section id="platforms" class="platforms-section">
+<div class="container">
+<div class="section-header fade-in">
+<span class="section-tag">Platforms</span>
+<h2>Where You'll Find My Courses</h2>
+<p class="platforms-subtitle">Teaching on 21+ platforms &mdash; so you can learn wherever you're comfortable.</p>
+</div>
+<div class="platforms-grid fade-in">
+<a href="https://www.youtube.com/@chetanpujari" target="_blank" rel="noopener noreferrer" class="platform-btn" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> YouTube</a>
+<a href="https://x.com/Chetanpujari51" target="_blank" rel="noopener noreferrer" class="platform-btn" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="var(--text)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> X (Twitter)</a>
+<a href="https://www.udemy.com/user/chetan-pujari-3/" target="_blank" rel="noopener noreferrer" class="platform-btn" aria-label="Udemy"><svg viewBox="0 0 24 24" fill="#A435F0"><path d="M12 0L5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.104 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-.996 3.054-2.974 3.054-1.979 0-2.921-1.018-2.921-3.054v-7.85z"/></svg> Udemy</a>
+<a href="https://www.skillshare.com/en/profile/Chetan-Pujari/2609232" target="_blank" rel="noopener noreferrer" class="platform-btn" aria-label="Skillshare"><svg viewBox="0 0 24 24" fill="#00FF84"><path d="M9.208 2.032l3.576 5.796 3.552-5.796h4.152L14.46 11.46l6.06 10.512h-4.2l-3.6-6.252-3.624 6.252h-4.14l6.048-10.512L5.028 2.032z"/></svg> Skillshare</a>
+<a href="https://do.starweaver.com/channels/chetan-pujari/about-me" target="_blank" rel="noopener noreferrer" class="platform-btn" aria-label="Starweaver"><span class="platform-icon-text" style="color:#FFB800;">&#11088;</span> Starweaver</a>
+<a href="https://market.tutorialspoint.com/profile/chetan-pujari" target="_blank" rel="noopener noreferrer" class="platform-btn" aria-label="TutorialsPoint"><svg viewBox="0 0 24 24" fill="#69B244"><rect width="24" height="24" rx="4" fill="#69B244"/><text x="12" y="17" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold" font-family="Arial">TP</text></svg> TutorialsPoint</a>
+<a href="#" class="platform-btn" aria-label="Packt"><svg viewBox="0 0 24 24" fill="#F57D20"><rect width="24" height="24" rx="4" fill="#F57D20"/><text x="12" y="17" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold" font-family="Arial">Packt</text></svg> Packt</a>
+</div>
+<hr class="platforms-separator">
+<div class="packt-distribution fade-in">
+<p class="dist-label">Also available via Packt distribution on:</p>
+<div class="dist-grid">
+<span class="dist-badge">ACI Learning</span><span class="dist-badge">Edflex</span><span class="dist-badge">HowNow</span><span class="dist-badge">Odilo</span><span class="dist-badge">OpenSesame</span><span class="dist-badge">Go1</span><span class="dist-badge">Calibr</span><span class="dist-badge">Coursera</span><span class="dist-badge">Cornerstone</span><span class="dist-badge">IIHT</span><span class="dist-badge">Packt B2B</span><span class="dist-badge">Packt Academic</span><span class="dist-badge">NIIT</span><span class="dist-badge">O'Reilly</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="bg-alt">
+<div class="container">
+<div class="section-header fade-in"><span class="section-tag">Expertise</span><h2>What I Bring to the Table</h2></div>
+<div class="skills-grid">
+<div class="skill-card"><div class="skill-icon">&#129302;</div><h3>AI &amp; Prompt Engineering</h3><p>ChatGPT, DeepSeek AI, Generative AI, AI Agents, n8n Automation</p></div>
+<div class="skill-card"><div class="skill-icon">&#127912;</div><h3>UI/UX Design</h3><p>Figma, User Research, Wireframing, Prototyping, Design Systems</p></div>
+<div class="skill-card"><div class="skill-icon">&#127916;</div><h3>Video Editing &amp; Production</h3><p>Professional editing, YouTube content, Course production</p></div>
+<div class="skill-card"><div class="skill-icon">&#128208;</div><h3>Graphic Design</h3><p>Canva, Visual branding, Social media graphics</p></div>
+<div class="skill-card"><div class="skill-icon">&#128187;</div><h3>Web Development</h3><p>HTML, CSS, JavaScript, Google Apps Script, Vercel deployments</p></div>
+<div class="skill-card"><div class="skill-icon">&#128218;</div><h3>Course Creation</h3><p>Curriculum design, Educational psychology, Multi-platform publishing</p></div>
+<div class="skill-card"><div class="skill-icon">&#128227;</div><h3>Content Marketing</h3><p>LinkedIn strategy, Substack newsletters, Instagram growth, Personal branding</p></div>
+<div class="skill-card"><div class="skill-icon">&#128295;</div><h3>Automation &amp; Productivity</h3><p>Notion systems, AI chatbots, Appointment booking bots, Workflow automation</p></div>
+</div>
+</div>
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+<div class="container">
+<div class="section-header fade-in"><span class="section-tag">Courses</span><h2>Learn From Me &mdash; Anytime, Anywhere</h2><p>Courses designed to take you from zero to confident. No fluff. No jargon. Just real skills.</p></div>
+<div class="courses-grid">
+
+    <!-- Course 1: Google Veo -->
+    <div class="course-card">
+        <div class="course-img-wrap">
+            <span class="course-badge badge-bestseller">Bestseller</span>
+            <img src="assets/images/courses/google-veo.jpg" alt="Google Veo Video Generation" loading="lazy" onerror="this.src='';this.style.background='linear-gradient(135deg,#FF5A5A,#44ACFF)';this.style.minHeight='180px';">
+        </div>
+        <div class="course-info">
+            <h3>Google Veo 3.1 Complete Mastery: From Text to Cinema</h3>
+            <div class="course-meta">
+                <a href="https://www.udemy.com/course/google-veo-complete-mastery-from-text-to-cinema/?referralCode=C8E267B2F6C642B37946" target="_blank" rel="noopener noreferrer" class="platform-btn">Udemy</a>
+            </div>
+            <a href="https://www.udemy.com/course/google-veo-complete-mastery-from-text-to-cinema/?referralCode=C8E267B2F6C642B37946" class="btn-cta" target="_blank" rel="noopener noreferrer">Enroll Now &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Course 2: HeyGen + ElevenLabs -->
+    <div class="course-card">
+        <div class="course-img-wrap">
+            <span class="course-badge badge-popular">Most Popular</span>
+            <img src="assets/images/courses/heygen-elevenlabs.jpg" alt="HeyGen ElevenLabs AI Videos" loading="lazy" onerror="this.src='';this.style.background='linear-gradient(135deg,#FF5A5A,#44ACFF)';this.style.minHeight='180px';">
+        </div>
+        <div class="course-info">
+            <h3>HeyGen + ElevenLabs: Create Viral AI Videos &amp; Voiceovers</h3>
+            <div class="course-meta">
+                <a href="https://www.udemy.com/course/heygen-elevenlabs-create-viral-ai-videos-voiceovers/?referralCode=9B7744312C61C887D963" target="_blank" rel="noopener noreferrer" class="platform-btn">Udemy</a>
+            </div>
+            <a href="https://www.udemy.com/course/heygen-elevenlabs-create-viral-ai-videos-voiceovers/?referralCode=9B7744312C61C887D963" class="btn-cta" target="_blank" rel="noopener noreferrer">Enroll Now &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Course 3: UI/UX Figma -->
+    <div class="course-card">
+        <div class="course-img-wrap">
+            <span class="course-badge badge-bestseller">Highest &amp; Bestseller</span>
+            <img src="assets/images/courses/figma-design.jpg" alt="UI/UX Design With Figma" loading="lazy" onerror="this.src='';this.style.background='linear-gradient(135deg,#FF5A5A,#44ACFF)';this.style.minHeight='180px';">
+        </div>
+        <div class="course-info">
+            <h3>UI/UX Design With Figma : 5+ Real World Projects</h3>
+            <div class="course-meta">
+                <a href="https://www.udemy.com/course/uiux-design-with-figma-5-real-world-projects2022/?referralCode=162A0121145B10617735" target="_blank" rel="noopener noreferrer" class="platform-btn">Udemy</a>
+            </div>
+            <a href="https://www.udemy.com/course/uiux-design-with-figma-5-real-world-projects2022/?referralCode=162A0121145B10617735" class="btn-cta" target="_blank" rel="noopener noreferrer">Enroll Now &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Course 4: ChatGPT Prompt Engineering -->
+    <div class="course-card">
+        <div class="course-img-wrap">
+            <span class="course-badge badge-highest">Highest Rated</span>
+            <img src="assets/images/courses/prompt-engineering.jpg" alt="ChatGPT Prompt Engineering" loading="lazy" onerror="this.src='';this.style.background='linear-gradient(135deg,#FF5A5A,#44ACFF)';this.style.minHeight='180px';">
+        </div>
+        <div class="course-info">
+            <h3>Mastering ChatGPT Prompt Engineering: Beginner to Advanced</h3>
+            <div class="course-meta">
+                <a href="https://www.udemy.com/course/mastering-chatgpt-prompt-engineering-beginner-to-advanced/?referralCode=A9C87B6CB177C58EF463" target="_blank" rel="noopener noreferrer" class="platform-btn">Udemy</a>
+            </div>
+            <a href="https://www.udemy.com/course/mastering-chatgpt-prompt-engineering-beginner-to-advanced/?referralCode=A9C87B6CB177C58EF463" class="btn-cta" target="_blank" rel="noopener noreferrer">Enroll Now &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Course 5: Master Notion -->
+    <div class="course-card">
+        <div class="course-img-wrap">
+            <span class="course-badge badge-highest">Highest Rated</span>
+            <img src="assets/images/courses/master-notion.jpg" alt="Master Notion Productivity" loading="lazy" onerror="this.src='';this.style.background='linear-gradient(135deg,#FF5A5A,#44ACFF)';this.style.minHeight='180px';">
+        </div>
+        <div class="course-info">
+            <h3>Master Notion: Build Your All-in-One Productivity System</h3>
+            <div class="course-meta">
+                <a href="https://www.udemy.com/course/master-notion-build-your-all-in-one-productivity-system/?referralCode=B40F9D016BA8B8A77A92" target="_blank" rel="noopener noreferrer" class="platform-btn">Udemy</a>
+            </div>
+            <a href="https://www.udemy.com/course/master-notion-build-your-all-in-one-productivity-system/?referralCode=B40F9D016BA8B8A77A92" class="btn-cta" target="_blank" rel="noopener noreferrer">Enroll Now &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Course 6: Canva Masterclass -->
+    <div class="course-card">
+        <div class="course-img-wrap">
+            <span class="course-badge badge-bestseller">Bestseller</span>
+            <img src="assets/images/courses/canva-masterclass.jpg" alt="Canva Masterclass" loading="lazy" onerror="this.src='';this.style.background='linear-gradient(135deg,#FF5A5A,#44ACFF)';this.style.minHeight='180px';">
+        </div>
+        <div class="course-info">
+            <h3>Canva Masterclass For Social Media And Content Creation</h3>
+            <div class="course-meta">
+                <a href="https://www.udemy.com/course/canva-masterclass-for-social-media-and-content-creation/?referralCode=66F992F39A96477E14B5" target="_blank" rel="noopener noreferrer" class="platform-btn">Udemy</a>
+            </div>
+            <a href="https://www.udemy.com/course/canva-masterclass-for-social-media-and-content-creation/?referralCode=66F992F39A96477E14B5" class="btn-cta" target="_blank" rel="noopener noreferrer">Enroll Now &rarr;</a>
+        </div>
+    </div>
+
+</div>
+<div class="courses-footer fade-in">
+<a href="https://www.udemy.com/user/chetan-pujari-3/" class="btn-explore-courses" target="_blank" rel="noopener noreferrer">Explore All 21+ Courses &rarr;</a>
+</div>
+</div>
+</section>
+
+<!-- IMPACT + TESTIMONIALS -->
+<section id="impact" class="bg-alt">
+<div class="container">
+<div class="section-header fade-in"><span class="section-tag">Impact</span><h2>Numbers That Speak</h2></div>
+<div class="counters-grid fade-in">
+<div class="counter-card"><div class="counter-emoji">&#127891;</div><div class="counter-number" data-target="400000" data-suffix="+">0</div><div class="counter-label">Students Worldwide</div></div>
+<div class="counter-card"><div class="counter-emoji">&#128218;</div><div class="counter-number" data-target="21" data-suffix="+">0</div><div class="counter-label">Courses &amp; Counting</div></div>
+<div class="counter-card"><div class="counter-emoji">&#127760;</div><div class="counter-number" data-target="21" data-suffix="+">0</div><div class="counter-label">Global Platforms</div></div>
+<div class="counter-card"><div class="counter-emoji">&#127757;</div><div class="counter-number" data-target="190" data-suffix="+">0</div><div class="counter-label">Countries Reached</div></div>
+<div class="counter-card"><div class="counter-emoji">&#128197;</div><div class="counter-number" data-target="6" data-suffix="+">0</div><div class="counter-label">Years of Teaching</div></div>
+<div class="counter-card"><div class="counter-emoji">&#128200;</div><div class="counter-number" data-target="539" data-suffix="K+">0</div><div class="counter-label">LinkedIn Impressions (2025)</div></div>
+</div>
+
+<div class="section-header fade-in" style="margin-top:20px;"><h2>What My Students Say</h2></div>
+<div class="testimonials-carousel fade-in">
+<div class="testimonials-track">
+<!-- Set 1 -->
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I was stuck in a dead-end data entry job. I took Chetan's ChatGPT Masterclass and within 2 months, I started offering AI-powered content writing services on Fiverr. Last month I made &#8377;85,000 &mdash; more than my old salary. This man changed my life."</p><div class="testimonial-author">Rohit S.</div><div class="testimonial-role">Freelance AI Content Writer, Nagpur</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I signed up for the Figma course with zero design experience. Three months later, I landed a UI/UX job at a Bangalore startup at &#8377;6.5 LPA. Chetan doesn't just teach tools &mdash; he teaches you how to think like a designer."</p><div class="testimonial-author">Priya M.</div><div class="testimonial-role">UI/UX Designer, Bangalore</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I run a small marketing agency. After taking Chetan's AI automation course, I set up chatbots and automated workflows for 3 of my clients. One client alone saved &#8377;2 lakh/month on customer support costs. My agency revenue jumped 40% in a quarter."</p><div class="testimonial-author">Arjun D.</div><div class="testimonial-role">Founder, Digital Marketing Agency, Mumbai</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I attended Chetan's workshop at NIT Surat during MINDBEND. The way he broke down prompt engineering was incredible. I went back and built an AI tool for my college project that our professors couldn't believe was made by a student."</p><div class="testimonial-author">Kashyap B.</div><div class="testimonial-role">Engineering Student, SVNIT Surat</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"As a 45-year-old teacher, I was terrified of AI. Chetan's courses feel like a friend explaining things over chai. Now I use ChatGPT to create lesson plans, quizzes, and even my school newsletter. My students think I'm a tech wizard! &#128516;"</p><div class="testimonial-author">Sunita K.</div><div class="testimonial-role">School Teacher, Pune</div></div>
+<!-- Set 2 (duplicate for seamless loop) -->
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I was stuck in a dead-end data entry job. I took Chetan's ChatGPT Masterclass and within 2 months, I started offering AI-powered content writing services on Fiverr. Last month I made &#8377;85,000 &mdash; more than my old salary. This man changed my life."</p><div class="testimonial-author">Rohit S.</div><div class="testimonial-role">Freelance AI Content Writer, Nagpur</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I signed up for the Figma course with zero design experience. Three months later, I landed a UI/UX job at a Bangalore startup at &#8377;6.5 LPA. Chetan doesn't just teach tools &mdash; he teaches you how to think like a designer."</p><div class="testimonial-author">Priya M.</div><div class="testimonial-role">UI/UX Designer, Bangalore</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I run a small marketing agency. After taking Chetan's AI automation course, I set up chatbots and automated workflows for 3 of my clients. One client alone saved &#8377;2 lakh/month on customer support costs. My agency revenue jumped 40% in a quarter."</p><div class="testimonial-author">Arjun D.</div><div class="testimonial-role">Founder, Digital Marketing Agency, Mumbai</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"I attended Chetan's workshop at NIT Surat during MINDBEND. The way he broke down prompt engineering was incredible. I went back and built an AI tool for my college project that our professors couldn't believe was made by a student."</p><div class="testimonial-author">Kashyap B.</div><div class="testimonial-role">Engineering Student, SVNIT Surat</div></div>
+<div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p class="testimonial-text">"As a 45-year-old teacher, I was terrified of AI. Chetan's courses feel like a friend explaining things over chai. Now I use ChatGPT to create lesson plans, quizzes, and even my school newsletter. My students think I'm a tech wizard! &#128516;"</p><div class="testimonial-author">Sunita K.</div><div class="testimonial-role">School Teacher, Pune</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<div class="container">
+<div class="section-header fade-in">
+<span class="section-tag">Services</span>
+<h2>Pick Your Superpower &#128640;</h2>
+<p>Whether you're a student, a creator, or a business &mdash; here's how I can make your life easier (and way more fun).</p>
+</div>
+<div class="services-grid">
+<div class="service-card"><div class="service-icon">&#127891;</div><h3>Learn at Your Own Speed</h3><p>From AI to design to automation &mdash; my courses are built for real people, not robots. Start from zero, go at your pace, and come out confident. Available on Udemy, Skillshare, and 19 other platforms. Yes, 21 platforms. I keep busy. &#128516;</p></div>
+<div class="service-card"><div class="service-icon">&#128188;</div><h3>Get a Website That Actually Works</h3><p>Need a clean, fast, modern website that doesn't look like it's from 2005? I build responsive sites using HTML/CSS/JS and deploy them on Vercel &mdash; optimized for speed, SEO, and looking incredible on every screen.</p></div>
+<div class="service-card"><div class="service-icon">&#129302;</div><h3>Let AI Do the Boring Stuff</h3><p>Imagine having a tireless assistant that handles customer queries, books appointments, and automates repetitive tasks &mdash; 24/7. I help businesses set up AI chatbots, n8n workflows, and smart agents that save time and money.</p></div>
+<div class="service-card"><div class="service-icon">&#128227;</div><h3>Build a Brand People Remember</h3><p>LinkedIn posts that get 539K impressions? Instagram that grows on autopilot? A Substack that people actually read? I've done it all myself &mdash; and I'll show you exactly how.</p></div>
+<div class="service-card"><div class="service-icon">&#127916;</div><h3>Videos That Keep People Watching</h3><p>From course videos to YouTube content to social media reels &mdash; I handle scripting, editing, and production. Clean cuts, engaging pacing, and a finished product you'll be proud to share.</p></div>
+<div class="service-card"><div class="service-icon">&#128208;</div><h3>Design That Feels Right</h3><p>Great design isn't about making things pretty &mdash; it's about making things work. I create user-centered designs in Figma, from wireframes to pixel-perfect prototypes, for apps and websites that people actually enjoy using.</p></div>
+</div>
+</div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section id="philosophy" class="bg-alt">
+<div class="container">
+<div class="section-header fade-in"><span class="section-tag">Philosophy</span><h2>Why People Trust Me</h2></div>
+<div class="philosophy-grid">
+<div class="philosophy-card fade-in"><p>&#128172; "I believe learning should feel like a conversation, not a lecture."</p></div>
+<div class="philosophy-card fade-in"><p>&#127793; "I start from the roots (foundations) so the leaves (advanced skills) grow naturally."</p></div>
+<div class="philosophy-card fade-in"><p>&#9749; "I make &#8377;80,000-worth of skills available for the price of a chai."</p></div>
+<div class="philosophy-card fade-in"><p>&#129504; "I don't just teach tools &mdash; I teach you how to think with them."</p></div>
+</div>
+</div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+<div class="container">
+<div class="section-header fade-in"><span class="section-tag">Blog</span><h2>Fresh Insights, Delivered Simply</h2></div>
+<div class="blog-grid">
+
+<div class="blog-card fade-in">
+<div class="blog-img-wrap">
+<img src="assets/images/blog/dark-psychology.jpg" alt="Dark Psychology AI article thumbnail" loading="lazy" onerror="this.style.background='linear-gradient(135deg,#FFA95A,#FF5A5A)';this.style.minHeight='200px';this.src='';">
+</div>
+<div class="blog-info">
+<span class="blog-date">March 10, 2026</span>
+<h3>I Studied Dark Psychology to Manipulate AI. It Works.</h3>
+<p>7 psychology hacks that make AI do exactly what you want &mdash; with copy-paste prompts.</p>
+<a href="https://chetanpujari.substack.com/p/i-studied-dark-psychology-to-manipulate" target="_blank" rel="noopener noreferrer" class="blog-link">Read on Substack &rarr;</a>
+</div>
+</div>
+
+<div class="blog-card fade-in">
+<div class="blog-img-wrap">
+<img src="assets/images/blog/ai-job-title.jpg" alt="Give AI a Job Title article thumbnail" loading="lazy" onerror="this.style.background='linear-gradient(135deg,#FF8B5A,#FFD45A)';this.style.minHeight='200px';this.src=''">
+</div>
+<div class="blog-info">
+<span class="blog-date">March 2, 2026</span>
+<h3>Give AI a Job Title. Watch Everything Change.</h3>
+<p>One line before every prompt that transforms generic AI output into expert-level results.</p>
+<a href="https://open.substack.com/pub/chetanpujari/p/give-ai-a-job-title-watch-everything" target="_blank" rel="noopener noreferrer" class="blog-link">Read on Substack &rarr;</a>
+</div>
+</div>
+
+<div class="blog-card fade-in">
+<div class="blog-img-wrap">
+<img src="assets/images/blog/prompt-chaining.jpg" alt="Prompt Chaining article thumbnail" loading="lazy" onerror="this.style.background='linear-gradient(135deg,#89D4FF,#44ACFF)';this.style.minHeight='200px';this.src=''">
+</div>
+<div class="blog-info">
+<span class="blog-date">2026</span>
+<h3>Prompt Chaining: The Skill That Separates AI Beginners from Pros</h3>
+<p>How breaking one big prompt into a chain of small ones can 10x your AI output quality.</p>
+<a href="https://chetanpujari.substack.com/" target="_blank" rel="noopener noreferrer" class="blog-link">Read on Substack &rarr;</a>
+</div>
+</div>
+
+</div>
+<div class="blog-footer fade-in">
+<a href="https://substack.com/@chetanpujari" class="btn-cta" target="_blank" rel="noopener noreferrer" style="padding:14px 36px;font-size:1rem;">Read All Articles on Substack &rarr;</a>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-alt">
+<div class="container">
+<div class="section-header fade-in"><span class="section-tag">Contact</span><h2>Let's Build Something Amazing Together</h2></div>
+<div class="contact-grid">
+<form class="contact-form fade-in" id="contactForm" action="mailto:chetanpujari92@gmail.com" method="post" enctype="text/plain">
+<div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" placeholder="e.g. Alex Johnson" required></div>
+<div class="form-group"><label for="email">Your Email</label><input type="email" id="email" name="email" placeholder="e.g. alex@example.com" required></div>
+<div class="form-group"><label for="message">Your Message</label><textarea id="message" name="message" placeholder="Tell me about your project, question, or idea..." required></textarea></div>
+<button type="submit" class="btn-cta" style="padding:14px 36px;font-size:1rem;width:fit-content;">Send Message &#128640;</button>
+</form>
+<div class="contact-info fade-in">
+<h3>Let's Connect!</h3>
+<p>Whether you have a project idea, need a consultation, or just want to say hi &mdash; I'd love to hear from you. I usually respond within 24 hours.</p>
+<a href="mailto:chetanpujari92@gmail.com" class="contact-email">&#128231; chetanpujari92@gmail.com</a>
+<h4 style="margin-bottom:14px;font-size:.95rem;">Find me on</h4>
+<div class="social-links">
+<a href="https://www.instagram.com/_chetan_pujari/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Personal Instagram"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></span></a>
+<a href="https://www.instagram.com/_chetan_pujari_/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="AI Instagram"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></span></a>
+<a href="https://www.linkedin.com/in/chetan-pujari-ai" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></span></a>
+<a href="https://www.udemy.com/user/chetan-pujari-3/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Udemy"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg></span></a>
+<a href="https://www.skillshare.com/en/profile/Chetan-Pujari/2609232" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Skillshare"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path><circle cx="7.5" cy="11.5" r="1.5" fill="currentColor"></circle><circle cx="12" cy="7.5" r="1.5" fill="currentColor"></circle><circle cx="16.5" cy="11.5" r="1.5" fill="currentColor"></circle><circle cx="14.5" cy="16" r="1.5" fill="currentColor"></circle></svg></span></a>
+<a href="https://substack.com/@chetanpujari" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Substack"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand"><a href="#home" class="nav-logo" style="font-size:1.3rem;">Chetan Pujari &#9889;</a><p>Making Tech Simple, One Course at a Time.</p></div>
+<div class="footer-links"><h4>Quick Links</h4><ul><li><a href="#home">Home</a></li><li><a href="#courses">Courses</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div class="footer-social"><h4>Connect</h4><div class="social-links"><a href="https://www.instagram.com/_chetan_pujari/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></span></a><a href="https://www.linkedin.com/in/chetan-pujari-ai" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></span></a><a href="https://www.udemy.com/user/chetan-pujari-3/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Udemy"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg></span></a><a href="https://substack.com/@chetanpujari" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Substack"><span><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></span></a></div></div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2026 Chetan Pujari. Making Tech Simple, One Course at a Time. &#9889;</p>
+<p style="margin-top:6px;">Built with &#10084;&#65039; by Chetan Pujari</p>
+</div>
+</div>
+</footer>
+
+<script>
+// Theme toggle with Circular Wave View Transitions API
+const themeToggle=document.getElementById('themeToggle'),html=document.documentElement;
+const saved=localStorage.getItem('theme')||'light';
+html.setAttribute('data-theme',saved);
+themeToggle.textContent=saved==='dark'?'\u2600\uFE0F':'\uD83C\uDF19';
+
+// Core theme swap function
+function executeThemeSwap() {
+  const c = html.getAttribute('data-theme');
+  const n = c === 'light' ? 'dark' : 'light';
+  html.setAttribute('data-theme', n);
+  localStorage.setItem('theme', n);
+  themeToggle.textContent = n === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+}
+
+// Circular Wave Reveal on click
+themeToggle.addEventListener('click', async (e) => {
+  // Fallback for browsers without View Transitions or reduced motion
+  if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    executeThemeSwap();
+    return;
+  }
+
+  // Get click coordinates (center of toggle button)
+  const rect = themeToggle.getBoundingClientRect();
+  const x = rect.left + rect.width / 2;
+  const y = rect.top + rect.height / 2;
+
+  // Calculate max radius to cover entire screen from click point
+  const right = window.innerWidth - x;
+  const bottom = window.innerHeight - y;
+  const maxRadius = Math.hypot(Math.max(x, right), Math.max(y, bottom));
+
+  // Freeze standard CSS transitions during the wave
+  html.classList.add('theme-transitioning');
+
+  // Start the view transition
+  const transition = document.startViewTransition(() => {
+    executeThemeSwap();
+  });
+
+  // Animate circular clip-path once ready
+  transition.ready.then(() => {
+    document.documentElement.animate(
+      {
+        clipPath: [
+          'circle(0px at ' + x + 'px ' + y + 'px)',
+          'circle(' + maxRadius + 'px at ' + x + 'px ' + y + 'px)'
+        ],
+      },
+      {
+        duration: 600,
+        easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
+        pseudoElement: '::view-transition-new(root)',
+      }
+    );
+  });
+
+  // Clean up after animation finishes
+  transition.finished.then(() => {
+    html.classList.remove('theme-transitioning');
+  });
+});
+
+// Hamburger menu
+const hamburger=document.getElementById('hamburger'),mobileMenu=document.getElementById('mobileMenu');
+hamburger.addEventListener('click',()=>{hamburger.classList.toggle('active');mobileMenu.classList.toggle('active');});
+mobileMenu.querySelectorAll('a').forEach(l=>l.addEventListener('click',()=>{hamburger.classList.remove('active');mobileMenu.classList.remove('active');}));
+
+// Show nav CTA on scroll
+const navCTA=document.getElementById('navCTA');
+window.addEventListener('scroll',()=>{navCTA.style.display=window.scrollY>400?'inline-flex':'none';});
+
+// Fade in on scroll
+const fadeEls=document.querySelectorAll('.fade-in');
+const fadeObs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){en.target.classList.add('visible');fadeObs.unobserve(en.target);}});},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+fadeEls.forEach(el=>fadeObs.observe(el));
+
+// Counter animation
+let counterDone=false;
+const cGrid=document.querySelector('.counters-grid');
+const cObs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting&&!counterDone){counterDone=true;document.querySelectorAll('.counter-number').forEach(c=>{const t=parseInt(c.dataset.target),s=c.dataset.suffix||'+',d=2000,st=t/(d/16);let cur=0;const up=()=>{cur+=st;if(cur<t){c.textContent=Math.floor(cur).toLocaleString()+s;requestAnimationFrame(up);}else{c.textContent=t.toLocaleString()+s;}};up();});}});},{threshold:.3});
+cObs.observe(cGrid);
+
+// Active nav highlight
+const sects=document.querySelectorAll('section[id]');
+window.addEventListener('scroll',()=>{const sy=window.scrollY+100;sects.forEach(s=>{const t=s.offsetTop,h=s.offsetHeight,id=s.getAttribute('id'),l=document.querySelector('.nav-links a[href="#'+id+'"]');if(l){l.style.color=sy>=t&&sy<t+h?'var(--coral)':'';}});});
+
+// Contact form
+document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();const n=document.getElementById('name').value,em=document.getElementById('email').value,m=document.getElementById('message').value;const sub=encodeURIComponent('Portfolio Contact from '+n),body=encodeURIComponent('Name: '+n+'\nEmail: '+em+'\n\nMessage:\n'+m);window.location.href='mailto:chetanpujari92@gmail.com?subject='+sub+'&body='+body;this.reset();alert('Thanks for reaching out! Your email client should open shortly.');});
+
+// ===== DYNAMIC TYPING EFFECT =====
+(function(){
+var phrases=[
+"teach AI to 400K+ students 🤖",
+"build modern websites ⚡",
+"create online courses 🎓",
+"simplify prompt engineering 🧠",
+"design UI/UX in Figma 🎨",
+"automate workflows with n8n 🔧",
+"conduct workshops at top NITs 🎤",
+"write newsletters on Substack ✍️",
+"help businesses grow with AI 🚀",
+"make tech simple for everyone ☕"
+];
+var el=document.getElementById('typing-text');
+if(!el)return;
+if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){el.textContent=phrases[0];return;}
+var pi=0,ci=0,del=false;
+function tick(){
+var phrase=phrases[pi];
+if(!del){el.textContent=phrase.substring(0,ci+1);ci++;if(ci===phrase.length){del=true;setTimeout(tick,2000);return;}setTimeout(tick,60);}
+else{el.textContent=phrase.substring(0,ci-1);ci--;if(ci===0){del=false;pi=(pi+1)%phrases.length;setTimeout(tick,400);return;}setTimeout(tick,35);}
+}
+setTimeout(tick,800);
+})();
+
+// Cascade observer
+const cascadeObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.courses-grid, .skills-grid, .services-grid').forEach(grid => {
+    cascadeObserver.observe(grid);
+});
+
+
+// Custom Cursor Logic
+if (window.matchMedia("(pointer: fine)").matches) {
+    const cursor = document.querySelector('.custom-cursor');
+    const follower = document.querySelector('.custom-cursor-follower');
+
+    let mouseX = 0, mouseY = 0;
+    let followerX = 0, followerY = 0;
+
+    document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+
+        // Immediate update for dot
+        cursor.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    });
+
+    // Smooth follow for the outer ring
+    function animate() {
+        followerX += (mouseX - followerX) * 0.15;
+        followerY += (mouseY - followerY) * 0.15;
+        follower.style.transform = `translate(${followerX}px, ${followerY}px)`;
+        requestAnimationFrame(animate);
+    }
+    animate();
+
+    // Add hover effect to interactive elements
+    const interactables = document.querySelectorAll('a, button, input, .course-card, .skill-card, .platform-btn');
+    interactables.forEach(el => {
+        el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+        el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+    });
+}
+
+
+
+
+</script>
+
+<!-- Particles.js Library -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+
+
+</script>
+<script>
+// Neural Network Particles Config
+document.addEventListener("DOMContentLoaded", function() {
+    if (document.getElementById('particles-js')) {
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": { "enable": true, "value_area": 800 }
+                },
+                "color": {
+                    "value": "#FF5A5A" // Coral color to match brand
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": { "width": 0, "color": "#000000" }
+                },
+"opacity": {
+"value": 0.15,
+                    "random": false,
+                    "anim": { "enable": false }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": { "enable": false }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#FF5A5A",
+                    "opacity": 0.1,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab" // "grab" draws lines to cursor, "repulse" pushes away
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push" // add particles on click
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 200,
+                        "line_linked": { "opacity": 0.2 }
+                    },
+                    "bubble": {
+                        "distance": 250,
+                        "size": 0,
+                        "duration": 2,
+                        "opacity": 0,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 150,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    }
+
+    // Auto-update particles color on dark mode toggle
+    const themeToggle = document.getElementById('themeToggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            // Slight delay to allow theme to apply
+            setTimeout(() => {
+                const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+                const pColor = isDark ? '#89D4FF' : '#FF5A5A'; // Blue in dark mode, Coral in light mode
+
+                // If particles exist, we can re-init them or we can just leave it as coral. 
+                // Coral actually looks great in both modes.
+            }, 100);
+        });
+    }
+});
+
+
+
+</script>
+
+<script>
+
+
+// Scroll Progress Bar Logic
+window.addEventListener('scroll', () => {
+    const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollPercent = (scrollPos / docHeight) * 100;
+
+    const progressBar = document.getElementById('scroll-progress-bar');
+    if (progressBar) {
+        progressBar.style.width = scrollPercent + '%';
+    }
+}, { passive: true });
+
+// Parallax Depth Scrolling
+(function(){
+    const bgLayers = document.querySelectorAll('.parallax-bg');
+    const fgLayers = document.querySelectorAll('.parallax-fg');
+
+    let scrollY = window.pageYOffset;
+    let ticking = false;
+
+    function updateParallax() {
+        bgLayers.forEach(layer => {
+            const speed = parseFloat(layer.getAttribute('data-speed'));
+            const yPos = -(scrollY * speed);
+            layer.style.transform = `translate3d(0px, ${yPos}px, 0px)`;
+        });
+
+        fgLayers.forEach(layer => {
+            // For foreground elements, calculate relative to their position in viewport
+            const speed = parseFloat(layer.getAttribute('data-speed'));
+            const rect = layer.getBoundingClientRect();
+            // Only move if in viewport
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                // Calculate how far we scrolled past its starting point
+                // A simpler approach is just mapping it to scrollY directly for subtle float
+                const yPos = -(scrollY * speed);
+                layer.style.transform = `translate3d(0px, ${yPos}px, 0px)`;
+            }
+        });
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', () => {
+        scrollY = window.pageYOffset;
+        if (!ticking) {
+            window.requestAnimationFrame(updateParallax);
+            ticking = true;
+        }
+    }, {passive: true});
+})();
+
+
+// === PRELOADER LOGIC ===
+document.addEventListener("DOMContentLoaded", () => {
+    // Add loading class to body to prevent scrolling
+    document.body.classList.add('loading');
+
+    // Wait for initial animations to finish (2.8s) then trigger wave
+    setTimeout(() => {
+        const preloader = document.getElementById('preloader');
+        if (preloader) {
+            // 1. Add the wave-out class to trigger the expanding circle
+            preloader.classList.add('wave-out');
+
+            // 2. Wait for the wave animation to finish (900ms) before cleaning up
+            setTimeout(() => {
+                document.body.classList.remove('loading');
+                preloader.style.display = 'none'; // Completely remove from document flow
+
+                // Trigger hero content fade-in
+                document.querySelectorAll('.hero-content.fade-in').forEach(el => {
+                    el.classList.add('visible');
+                });
+            }, 900);
+        }
+    }, 2800);
+});
+
+
+
+
+</script>
+
+<!-- Available for Hire Badge -->
+<a href="#contact" class="hire-badge" aria-label="Hire Me">
+    <span class="pulse-dot"></span>
+    <span class="hire-text">Available for Projects</span>
+</a>
+
+
+<script>
+// === Magnetic 3D Tilt Effect for Skill & Service Cards ===
+// Only on hover-capable devices (not mobile/touch)
+(function() {
+    if (!window.matchMedia('(hover: hover)').matches) return;
+
+    var tiltCards = document.querySelectorAll('.skill-card, .service-card, .profile-ring');
+
+    tiltCards.forEach(function(card) {
+        card.addEventListener('mousemove', function(e) {
+            var rect = card.getBoundingClientRect();
+            var x = e.clientX - rect.left;
+            var y = e.clientY - rect.top;
+            var centerX = rect.width / 2;
+            var centerY = rect.height / 2;
+
+            // Calculate tilt angles (max ±6 degrees)
+            var rotateX = ((y - centerY) / centerY) * -6;
+            var rotateY = ((x - centerX) / centerX) * 6;
+
+            card.classList.add('tilt-active');
+            card.style.transform = 'perspective(1000px) rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg) translateY(-6px)';
+        });
+
+        card.addEventListener('mouseleave', function() {
+            card.classList.remove('tilt-active');
+            // Smoothly reset to flat position
+            card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)';
+            card.style.transition = 'transform 0.5s ease';
+        });
+
+        card.addEventListener('mouseenter', function() {
+            // Remove transition during movement for responsiveness
+            card.style.transition = 'transform 0.1s ease';
+        });
+    });
+})();
+</script>
+
+
+<script>
+// Liquid Glass Navbar Scroll Effect
+document.addEventListener('DOMContentLoaded', () => {
+    const navbar = document.querySelector('.navbar');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    if (!navbar) return;
+
+    let isScrolling = false;
+
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            if (!navbar.classList.contains('scrolled')) {
+                navbar.classList.add('scrolled');
+            }
+            // Adjust mobile menu position when navbar is in pill mode
+            if (mobileMenu) {
+                mobileMenu.style.top = '90px';
+                mobileMenu.style.left = '4%';
+                mobileMenu.style.right = '4%';
+                mobileMenu.style.borderRadius = '0 0 20px 20px';
+                mobileMenu.style.background = 'rgba(255,255,255,0.85)';
+                mobileMenu.style.backdropFilter = 'blur(20px)';
+                mobileMenu.style.webkitBackdropFilter = 'blur(20px)';
+                if (document.documentElement.getAttribute('data-theme') === 'dark') {
+                    mobileMenu.style.background = 'rgba(26,26,46,0.9)';
+                }
+            }
+        } else {
+            if (navbar.classList.contains('scrolled')) {
+                navbar.classList.remove('scrolled');
+            }
+            // Reset mobile menu position
+            if (mobileMenu) {
+                mobileMenu.style.top = '70px';
+                mobileMenu.style.left = '0';
+                mobileMenu.style.right = '0';
+                mobileMenu.style.borderRadius = '0';
+                mobileMenu.style.background = 'var(--bg)';
+                mobileMenu.style.backdropFilter = 'none';
+                mobileMenu.style.webkitBackdropFilter = 'none';
+            }
+        }
+        isScrolling = false;
+    };
+
+    window.addEventListener('scroll', () => {
+        if (!isScrolling) {
+            window.requestAnimationFrame(handleScroll);
+            isScrolling = true;
+        }
+    }, { passive: true });
+
+    // Trigger once on load in case user refreshed while scrolled down
+    handleScroll();
+});
+</script>
+</body>
+</html>
